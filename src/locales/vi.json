@@ -1,0 +1,45 @@
+{
+    "login": {
+        "unauthenticated": "Lỗi đăng nhập",
+        "phone_required": "Sai số điện thoại hoặc mật khẩu",
+        "email_required": "Sai email hoặc mật khẩu",
+        "password_required": "Sai số điện thoại hoặc mật khẩu",
+        "invalid_user_pass": "Sai số điện thoại hoặc mật khẩu"
+    },
+    "user": {
+        "not_found": "Không tìm thấy người dùng",
+        "phone_existed": "Số điện thoại đã tồn tại",
+        "deletion_failed": "Không xóa được người dùng",
+        "required": "Thiếu thông tin tài khoản",
+        "phone_or_email_existed": "Số điện thoại hoặc email đã tồn tại",
+        "permission_denied": "Người dùng không có quyền truy cập"
+    },
+    "otp": {
+        "phone_required": "Số điện thoại bị thiếu",
+        "code_required": "Mã bị thiếu"
+    },
+    "upload": {
+        "image_required": "Vui lòng chọn hình ảnh để tải lên",
+        "file_required": "Vui lòng chọn file để tải lên",
+        "forbidden_image": "Bạn không có quyền để truy cập vào hình ảnh này",
+        "forbidden_file": "Bạn không có quyền để truy cập vào file này"
+    },
+    "phone": {
+        "is_missing": "Số điện thoại sai",
+        "is_used": "Số điện thoại đã được sữ dụng"
+    },
+    "role": {
+        "not_found": "Không tìm thấy quyền người dùng"
+    },
+    "booking": {
+        "not_found": "Không tìm thấy booking",
+        "person_key_not_found": "Không tìm thấy khách hàng",
+        "payment_method_not_found": "Không tìm thấy phương thức thanh toán"
+    },
+    "reservation": {
+        "not_found": "Không tìm thấy mã đặt chổ"
+    },
+    "combo_order": {
+        "not_found": "Không tìm thấy mã combo"
+    }
+}

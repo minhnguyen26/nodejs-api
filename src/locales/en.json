@@ -1,0 +1,45 @@
+{
+    "login": {
+        "unauthenticated": "Unauthenticated",
+        "phone_required": "Invalid phone or password",
+        "email_required": "Invalid email or password",
+        "password_required": "Invalid phone or password",
+        "invalid_user_pass": "Invalid phone or password"
+    },
+    "user": {
+        "not_found": "User not found",
+        "phone_existed": "Phone number is existed",
+        "deletion_failed": "Failed to delete user",
+        "required": "User is required",
+        "phone_or_email_existed": "Phone number or email is existed",
+        "permission_denied": "User permission denied"
+    },
+    "otp": {
+        "phone_required": "Phone is required",
+        "code_required": "Code is required"
+    },
+    "upload": {
+        "image_required": "Please select an image to upload",
+        "file_required": "Please select a file to upload",
+        "forbidden_image": "You don't have right to access this image",
+        "forbidden_file": "You don't have right to access this file"
+    },
+    "phone": {
+        "is_missing": "Phone is missing",
+        "is_used": "Phone is used"
+    },
+    "role": {
+        "not_found": "Role not found"
+    },
+    "booking": {
+        "not_found": "Booking not found",
+        "person_key_not_found": "Booking person key not found",
+        "payment_method_not_found": "Booking payment method not found"
+    },
+    "reservation": {
+        "not_found": "Reservation not found"
+    },
+    "combo_order": {
+        "not_found": "Combo Order not found"
+    }
+}

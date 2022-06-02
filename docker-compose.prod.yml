@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  api:
+    image: swanbay-api
+    container_name: swanbay-api
+    build:
+      context: .
+      dockerfile: ./Dockerfile.prod
+    ports:
+      - "8000:8000"
+    restart: on-failure
+    tty: true
+    networks:
+      - db
+networks:
+  db:
+    external: true

@@ -1,0 +1,9 @@
+FROM node:lts-alpine
+WORKDIR /app
+COPY ["package.json", "package-lock.json", "tsconfig.json", "./"]
+RUN npm install --silent
+COPY . .
+RUN mv .env.production.rename_this ./.env
+
+RUN rm -rf dist && npm run build:f
+CMD ["npm", "start"]
